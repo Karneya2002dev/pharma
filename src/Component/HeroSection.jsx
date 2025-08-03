@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import doctorImg from '../assets/doctor.png';
+import doctorImg from '../assets/Doctor.png';
 
 const floatTransition = {
   y: [0, -10, 0],
@@ -93,7 +93,7 @@ const HeroSection = () => {
           className="space-y-4 max-w-2xl"
         >
           <h1 className="text-4xl md:text-5xl font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-500">
-            Welcome to <span className="text-sky-600">Fourmax Clinic</span>
+            Welcome to <span className="text-sky-600">FourmaX Pharma</span>
           </h1>
 
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
